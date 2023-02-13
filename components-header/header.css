@@ -1,0 +1,31 @@
+*{
+   box-sizing: border-box;
+
+}
+.body{
+   margin: 0px;
+}
+
+.header{
+   background-color: #13171c;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 375px;
+   height: 114px;
+   padding: 37px 24px;
+   font-weight: 400;
+}
+
+.menu-hamburguesa-content__header-section{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+.menu-hamburguesa__header-section{
+   background-color: #ffffff;
+   height: 5px;
+   width: 30px;
+}
+
