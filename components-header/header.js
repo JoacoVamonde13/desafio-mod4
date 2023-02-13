@@ -48,7 +48,7 @@ function createCompHeader(el){
         </div>
         </header>
     ` 
-       el.appenChild(header);
+       el.appendChild(header);
        abrirMenuOculto();
  }
  
