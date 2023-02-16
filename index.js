@@ -1,5 +1,6 @@
 function main(){
-  headerComponent(document.querySelector(".header-section"));
+  createCompHeader(document.querySelector(".header-section"));
+  createCompWelcome(document.querySelector(".section-presentacion"));
 }
 
 main();

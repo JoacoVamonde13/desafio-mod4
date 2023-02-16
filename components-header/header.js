@@ -22,7 +22,7 @@ function createCompHeader(el){
     header.innerHTML = `
     <header class="header">
     <a href="./index.html" rel="noopener noreferrer">
-        <img src="" alt="" class="img__header-section">
+        <img src="Captura de pantalla 2023-02-13 145854.png" alt="" class="img__header-section">
         </a>
         <div class="menu-hamburguesa-content__header-section">
             <div class="menu-hamburguesa__header-section"></div>
@@ -44,7 +44,6 @@ function createCompHeader(el){
             <a href="./portofolio.html" class="menu-escritorio__opciones">PORTFOLIO</a>
             <a href="/servicios.html" class="menu-escritorio__opciones">SERVICIOS</a>
             <a href="./contacto.html" class="menu-escritorio__opciones">CONTACTO</a>
-            <a href="./index.html" class="menu-escritorio__opciones">HOME</a>
         </div>
         </header>
     ` 
