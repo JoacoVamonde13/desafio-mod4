@@ -8,17 +8,18 @@ function recibirDatosDeContenful(){
         console.log(data);
         const fieldscollections = data.items.map((item) => {
             return {
-              titulo: fields.tittle,
-              img: fields.file.url
+              titulo: item.fields.tittle,
+              img: data.fields.file.url
             };
           });
     
           return fieldscollections;
         });  
 }
+recibirDatosDeContenful();
 
 
-function createCompWelcome(el){
+/*function createCompWelcome(el){
     const welcomeEl = document.createElement("div")
 
     welcomeEl.innerHTML = `
@@ -30,4 +31,4 @@ function createCompWelcome(el){
 
    el.appendChild(welcomeEl);
 
-}
+}*/
